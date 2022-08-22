@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.background-1 {
+  background-image: url(./images/bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+.content {
+  background-color: black;
+  color: white;
+  border: solid black 2px;
+  outline-offset: 1rem;
+  outline: inset 0.5rem purple;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding: 2rem;
+}
+h1 {
+  font-weight: 400;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+.text-light {
+  background-color: rgb(241, 241, 241);
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  padding: 3rem 5rem;
+  color: #666;
+}
+h2 {
+  margin-bottom: 1rem;
+}
+.background-2 {
+  background-image: url(./images/bg2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+.logo {
+  text-align: center;
+}
+.text-dark {
+  background-color: #282e34;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  padding: 3rem 5rem;
+  color: #ddd;
+}
+.background-3 {
+  background-image: url(./images/bg3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+.background-4 {
+  background-image: url(./images/bg4.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+.background-5 {
+  background-image: url(./images/bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+@media (max-width: 860px) {
+  .img-content {
+    width: fit-content;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+  }
+}
+@media (max-width: 650px) {
+  .img-content {
+    width: fit-content;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+  }
+}
